@@ -1,0 +1,23 @@
+{
+  "provenance": "Recorded DeepSeek response to CC0 gfp01, 2026-11-08. A regression fixture, not corrected ground truth. No live request on replay.",
+  "source_artifact": "artifacts\\vision-smoke-1794085723926381700\\provider-result.json",
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "message": {
+        "content": "{\"items\":[{\"name\":\"果汁饮料\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"不可从外观推克数；标签文字按可见内容截取\",\"image_indices\":[1],\"obscured\":false,\"duplicate_group\":null,\"label_text\":\"Splash\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"蔬果汁\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"瓶装，标签文字按可见部分记录\",\"image_indices\":[1],\"obscured\":false,\"duplicate_group\":null,\"label_text\":\"MAE PLU\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"锡纸包裹容器\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"内装物不可见，无法判断内部食材\",\"image_indices\":[1],\"obscured\":true,\"duplicate_group\":null,\"label_text\":\"\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"塑料盒装蔬菜\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"袋/盒内蔬菜被遮挡，无法确认种类\",\"image_indices\":[1],\"obscured\":true,\"duplicate_group\":null,\"label_text\":\"\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"沙拉酱\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"瓶装，标签文字仅截取可见部分\",\"image_indices\":[1],\"obscured\":false,\"duplicate_group\":null,\"label_text\":\"Nutrition Facts\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"食用油\",\"ingredient_id\":null,\"visible_count\":2,\"note\":\"两瓶同款油；不可从外观估容量\",\"image_indices\":[1],\"obscured\":false,\"duplicate_group\":\"oil_bottles\",\"label_text\":\"OLA OIL\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"脱脂牛奶\",\"ingredient_id\":\"milk\",\"visible_count\":2,\"note\":\"大瓶牛奶，第二瓶部分被遮挡；净含量文字未清晰可读到，不推定\",\"image_indices\":[1],\"obscured\":true,\"duplicate_group\":\"milk_jugs\",\"label_text\":\"FAT FREE skim milk\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null},{\"name\":\"大瓶饮料\",\"ingredient_id\":null,\"visible_count\":1,\"note\":\"不可从外观猜容量\",\"image_indices\":[1],\"obscured\":false,\"duplicate_group\":null,\"label_text\":\"\",\"package_quantity\":null,\"package_unit\":null,\"remaining_fraction\":null,\"sealed\":null}],\"note\":\"请确认种类与分量；照片不能判断食物安全。\"}"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2150,
+    "completion_tokens": 642,
+    "total_tokens": 2792,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 230
+  }
+}

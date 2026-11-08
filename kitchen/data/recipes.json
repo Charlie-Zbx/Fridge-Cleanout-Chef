@@ -1,0 +1,2041 @@
+[
+  {
+    "id": "cabbage_egg",
+    "name": "卷心菜炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "cabbage",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "卷心菜洗净切丝；鸡蛋打散。",
+      "锅中放少量油，炒熟鸡蛋后盛出。",
+      "炒熟卷心菜，加入鸡蛋和少量盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "pan_tofu",
+    "name": "香煎豆腐",
+    "ingredients": [
+      {
+        "ingredient_id": "tofu",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 18,
+    "steps": [
+      "豆腐沥水后切厚片。",
+      "平底锅放少量油，中小火煎豆腐，定型后翻面。",
+      "煎至两面上色并充分加热，撒少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "tomato_egg",
+    "name": "番茄炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "tomato",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "番茄洗净切块，鸡蛋打散。",
+      "先将鸡蛋炒熟盛出。",
+      "炒软番茄，加入鸡蛋拌匀，以少量盐调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "stir_cabbage",
+    "name": "清炒卷心菜",
+    "ingredients": [
+      {
+        "ingredient_id": "cabbage",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 12,
+    "steps": [
+      "卷心菜洗净沥水，切成小片。",
+      "锅中放油，加入卷心菜翻炒。",
+      "炒熟后加少量盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 27,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 30,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 45,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "tomato_tofu",
+    "name": "番茄炖豆腐",
+    "ingredients": [
+      {
+        "ingredient_id": "tomato",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "tofu",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 20,
+    "steps": [
+      "番茄切块，豆腐切小块。",
+      "锅中少量油炒软番茄，加入适量水。",
+      "放入豆腐煮至充分加热，加入少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "egg_cucumber",
+    "name": "黄瓜炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "黄瓜洗净切片，鸡蛋打散。",
+      "炒熟鸡蛋后盛出。",
+      "黄瓜翻炒至熟，加入鸡蛋和盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "potato_strips",
+    "name": "清炒土豆丝",
+    "ingredients": [
+      {
+        "ingredient_id": "potato",
+        "quantity": 180,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 20,
+    "steps": [
+      "土豆去皮切细丝，冲洗并沥干。",
+      "锅中放少量油，炒土豆丝，必要时加少量水。",
+      "炒至完全熟透后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "carrot_egg",
+    "name": "胡萝卜炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "carrot",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 18,
+    "steps": [
+      "胡萝卜洗净切细丝，鸡蛋打散。",
+      "先炒熟鸡蛋盛出。",
+      "炒熟胡萝卜，加入鸡蛋和盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "mushroom_tofu",
+    "name": "蘑菇豆腐汤",
+    "ingredients": [
+      {
+        "ingredient_id": "mushroom",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "tofu",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 20,
+    "steps": [
+      "使用确认可食用的鲜蘑菇，洗净切片；豆腐切块。",
+      "锅中加水，煮熟蘑菇。",
+      "加入豆腐充分煮热后加少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "pepper_egg",
+    "name": "青椒炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "pepper",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "青椒去籽切丝，鸡蛋打散。",
+      "鸡蛋炒熟后盛出。",
+      "青椒炒熟，加入鸡蛋和盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "onion_egg",
+    "name": "洋葱炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "onion",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "洋葱切丝，鸡蛋打散。",
+      "鸡蛋炒熟后盛出。",
+      "炒软洋葱，加入鸡蛋和盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "zucchini_egg",
+    "name": "西葫芦炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "zucchini",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 18,
+    "steps": [
+      "西葫芦洗净切片，鸡蛋打散。",
+      "鸡蛋炒熟盛出。",
+      "炒熟西葫芦，加入鸡蛋与盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "garlic_broccoli",
+    "name": "蒜蓉西兰花",
+    "ingredients": [
+      {
+        "ingredient_id": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "garlic",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 18,
+    "steps": [
+      "西兰花切小朵洗净，蒜切末。",
+      "锅中少量油炒香蒜末，加入西兰花翻炒。",
+      "加少量水加盖焖熟，再用盐调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "stir_spinach",
+    "name": "清炒菠菜",
+    "ingredients": [
+      {
+        "ingredient_id": "spinach",
+        "quantity": 180,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 12,
+    "steps": [
+      "菠菜洗净，切去老根。",
+      "锅中放少量油，翻炒菠菜。",
+      "充分炒熟后加少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 27,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 30,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 45,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "garlic_lettuce",
+    "name": "蒜蓉生菜",
+    "ingredients": [
+      {
+        "ingredient_id": "lettuce",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "garlic",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 12,
+    "steps": [
+      "生菜洗净沥水，蒜切末。",
+      "锅中少量油炒香蒜末，加入生菜。",
+      "炒熟后加少量盐拌匀。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 12,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 27,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 30,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 45,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "egg_rice",
+    "name": "蛋炒饭",
+    "ingredients": [
+      {
+        "ingredient_id": "cooked_rice",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 15,
+    "steps": [
+      "确认熟米饭适合食用，打散结块；鸡蛋打散。",
+      "锅中放少量油，将鸡蛋炒熟。",
+      "加入米饭炒散，充分加热后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 15,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 33,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 36,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 54,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "cabbage_rice",
+    "name": "卷心菜蛋炒饭",
+    "ingredients": [
+      {
+        "ingredient_id": "cooked_rice",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "cabbage",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 20,
+    "steps": [
+      "确认熟米饭适合食用；卷心菜切丝，鸡蛋打散。",
+      "炒熟鸡蛋和卷心菜。",
+      "加入米饭炒散并充分加热，加盐调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "tomato_noodles",
+    "name": "番茄鸡蛋面",
+    "ingredients": [
+      {
+        "ingredient_id": "noodles",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "tomato",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 25,
+    "steps": [
+      "番茄切块，鸡蛋打散。",
+      "锅中少量油炒熟鸡蛋与番茄，加入水煮开。",
+      "加入面条煮至熟透，按口味放少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "cabbage_noodles",
+    "name": "卷心菜汤面",
+    "ingredients": [
+      {
+        "ingredient_id": "noodles",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "cabbage",
+        "quantity": 120,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 20,
+    "steps": [
+      "卷心菜洗净切丝。",
+      "锅中加水煮开，放入面条和卷心菜。",
+      "煮至面条和蔬菜熟透，加少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "broccoli_chicken",
+    "name": "西兰花炒鸡肉",
+    "ingredients": [
+      {
+        "ingredient_id": "broccoli",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "chicken",
+        "quantity": 120,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 25,
+    "steps": [
+      "鸡肉切小片，生熟器具分开；西兰花洗净切小朵。",
+      "锅中放油，炒鸡肉至充分熟透。",
+      "加入西兰花和少量水，加盖焖熟后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "pepper_pork",
+    "name": "青椒炒肉丝",
+    "ingredients": [
+      {
+        "ingredient_id": "pepper",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "pork",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "soy_sauce"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 25,
+    "steps": [
+      "猪肉切细丝，生熟器具分开；青椒去籽切丝。",
+      "锅中放油，将肉丝炒至充分熟透。",
+      "加入青椒炒熟，加少量酱油。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "onion_beef",
+    "name": "洋葱炒牛肉",
+    "ingredients": [
+      {
+        "ingredient_id": "onion",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "beef",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "soy_sauce"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 25,
+    "steps": [
+      "牛肉切薄片，生熟器具分开；洋葱切丝。",
+      "锅中放油，将牛肉炒熟。",
+      "加入洋葱炒软，确保肉充分熟透后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "shrimp_egg",
+    "name": "虾仁炒蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "shrimp",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 20,
+    "steps": [
+      "处理好的虾仁沥水，鸡蛋打散，生熟器具分开。",
+      "锅中放少量油，将虾仁炒至熟透。",
+      "加入蛋液，炒至完全凝固并调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 20,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 43,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 46,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 69,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "fish_tofu",
+    "name": "鱼片豆腐汤",
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "tofu",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "ginger",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 25,
+    "steps": [
+      "鱼片检查鱼刺，生熟器具分开；豆腐切块，姜切片。",
+      "水中加入姜和豆腐煮开。",
+      "加入鱼片煮至完全熟透后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "corn_carrot",
+    "name": "玉米胡萝卜丁",
+    "ingredients": [
+      {
+        "ingredient_id": "corn",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "carrot",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "salt"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 18,
+    "steps": [
+      "胡萝卜洗净切小丁，玉米粒洗净。",
+      "锅中放少量油，翻炒胡萝卜与玉米。",
+      "加少量水焖至熟透后调味。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "eggplant_potato",
+    "name": "茄子烧土豆",
+    "ingredients": [
+      {
+        "ingredient_id": "eggplant",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "potato",
+        "quantity": 120,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "oil",
+      "soy_sauce"
+    ],
+    "equipment": [
+      "pan"
+    ],
+    "minutes": 30,
+    "steps": [
+      "茄子切块，土豆去皮切小块。",
+      "锅中放油翻炒土豆和茄子。",
+      "加入适量水和少量酱油，焖至全部熟透。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 30,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 30,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 63,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 66,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 99,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "bok_choy_tofu",
+    "name": "小白菜豆腐汤",
+    "ingredients": [
+      {
+        "ingredient_id": "bok_choy",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient_id": "tofu",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "pantry": [
+      "salt"
+    ],
+    "equipment": [
+      "pot"
+    ],
+    "minutes": 18,
+    "steps": [
+      "小白菜洗净切段，豆腐切块。",
+      "锅中加水，煮热豆腐。",
+      "加入小白菜煮熟，放少量盐。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 18,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 39,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 42,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 63,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "steamed_pumpkin",
+    "name": "清蒸南瓜",
+    "ingredients": [
+      {
+        "ingredient_id": "pumpkin",
+        "quantity": 200,
+        "unit": "g"
+      }
+    ],
+    "pantry": [],
+    "equipment": [
+      "steamer"
+    ],
+    "minutes": 25,
+    "steps": [
+      "南瓜去籽，洗净切均匀小块。",
+      "蒸锅加水，放入装南瓜的耐热盘。",
+      "蒸至南瓜熟软，取出时防烫。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "steamed_egg",
+    "name": "蒸水蛋",
+    "ingredients": [
+      {
+        "ingredient_id": "egg",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "pantry": [
+      "salt"
+    ],
+    "equipment": [
+      "steamer"
+    ],
+    "minutes": 25,
+    "steps": [
+      "鸡蛋打散，加约蛋液1.5倍温水和少量盐。",
+      "蛋液放入耐热容器，盖上耐热盖。",
+      "放入蒸锅蒸至完全凝固，时间按容器调整。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 25,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 53,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 56,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 84,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  },
+  {
+    "id": "plain_rice",
+    "name": "电饭煲米饭",
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "pantry": [],
+    "equipment": [
+      "rice_cooker"
+    ],
+    "minutes": 45,
+    "steps": [
+      "大米淘洗后放入电饭煲。",
+      "按电饭煲刻度和说明加入适量水。",
+      "使用煮饭程序，完成后焖片刻再盛出。"
+    ],
+    "tags": [
+      "家常"
+    ],
+    "source_label": "AI 起草的开发示例；用时与口味未经实做验证",
+    "reviewed": false,
+    "cooked_count": 0,
+    "base_servings": 1,
+    "count_rounding": "ceil",
+    "serving_profiles": {
+      "1": {
+        "minutes": 45,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：1人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "2": {
+        "minutes": 45,
+        "batches": 1,
+        "instructions": "开发估计，待团队审核：2人份分1批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "3": {
+        "minutes": 93,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：3人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "4": {
+        "minutes": 96,
+        "batches": 2,
+        "instructions": "开发估计，待团队审核：4人份分2批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      },
+      "5": {
+        "minutes": 144,
+        "batches": 3,
+        "instructions": "开发估计，待团队审核：5人份分3批顺序制作；每批按原步骤充分加热，准备与各批时间已计入。厨具装不下时需继续分批并重新确认时间。"
+      }
+    },
+    "version": 2,
+    "team_reviewed": false,
+    "team_reviewed_by": null,
+    "team_reviewed_at": null,
+    "cooking_records": []
+  }
+]

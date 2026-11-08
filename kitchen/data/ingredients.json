@@ -1,0 +1,249 @@
+[
+  {
+    "id": "egg",
+    "name": "鸡蛋",
+    "unit": "piece",
+    "allergens": [
+      "egg"
+    ],
+    "aliases": [
+      "鸡子"
+    ]
+  },
+  {
+    "id": "cabbage",
+    "name": "卷心菜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "包菜",
+      "圆白菜"
+    ]
+  },
+  {
+    "id": "tofu",
+    "name": "豆腐",
+    "unit": "g",
+    "allergens": [
+      "soy"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "西红柿"
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "土豆",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "马铃薯"
+    ]
+  },
+  {
+    "id": "carrot",
+    "name": "胡萝卜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "cucumber",
+    "name": "黄瓜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "mushroom",
+    "name": "鲜蘑菇",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "蘑菇"
+    ]
+  },
+  {
+    "id": "pepper",
+    "name": "青椒",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "onion",
+    "name": "洋葱",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "zucchini",
+    "name": "西葫芦",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "broccoli",
+    "name": "西兰花",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "spinach",
+    "name": "菠菜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "lettuce",
+    "name": "生菜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "cooked_rice",
+    "name": "熟米饭",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "剩米饭"
+    ]
+  },
+  {
+    "id": "rice",
+    "name": "生大米",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "大米"
+    ]
+  },
+  {
+    "id": "noodles",
+    "name": "干面条",
+    "unit": "g",
+    "allergens": [
+      "wheat"
+    ],
+    "aliases": [
+      "面条"
+    ]
+  },
+  {
+    "id": "chicken",
+    "name": "鸡肉",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "pork",
+    "name": "猪肉",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "beef",
+    "name": "牛肉",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "shrimp",
+    "name": "虾仁",
+    "unit": "g",
+    "allergens": [
+      "shellfish"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "fish",
+    "name": "鱼片",
+    "unit": "g",
+    "allergens": [
+      "fish"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "milk",
+    "name": "牛奶",
+    "unit": "ml",
+    "allergens": [
+      "milk"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "corn",
+    "name": "玉米粒",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "eggplant",
+    "name": "茄子",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  },
+  {
+    "id": "garlic",
+    "name": "大蒜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "蒜"
+    ]
+  },
+  {
+    "id": "ginger",
+    "name": "生姜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "姜"
+    ]
+  },
+  {
+    "id": "scallion",
+    "name": "小葱",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "葱"
+    ]
+  },
+  {
+    "id": "bok_choy",
+    "name": "小白菜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": [
+      "白菜苗"
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "name": "南瓜",
+    "unit": "g",
+    "allergens": [],
+    "aliases": []
+  }
+]

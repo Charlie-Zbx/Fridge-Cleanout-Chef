@@ -1,0 +1,11 @@
+﻿scenario_id,scenario,files,permission_to_upload,ground_truth,visible_count_ground_truth,label_ground_truth,duplicate_ground_truth,model_result,manual_corrections,elapsed_seconds,notes
+01,清晰整箱,,,,,,,,,,
+02,多层分拍,,,,,,,,,,
+03,可计数食材,,,,,,,,,,
+04,未开封标签,,,,,,,,,,
+05,开封剩余比例,,,,,,,,,,
+06,无重量依据蔬菜,,,,,,,,,,
+07,遮挡不透明盒袋,,,,,,,,,,
+08,跨图重复,,,,,,,,,,
+09,同类独立包装,,,,,,,,,,
+10,账面与实际不同,,,,,,,,,,

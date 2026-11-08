@@ -1,0 +1,33 @@
+# Prepared configuration only. Creating this paid service needs explicit approval.
+services:
+  - type: web
+    name: yuwei-kitchen
+    runtime: docker
+    plan: starter
+    autoDeploy: false
+    healthCheckPath: /api/health
+    disk:
+      name: kitchen-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: KITCHEN_DATA_DIR
+        value: /var/data
+      - key: KITCHEN_HOST
+        value: 0.0.0.0
+      - key: KITCHEN_PUBLIC
+        value: "1"
+      - key: KITCHEN_SECURE_COOKIE
+        value: "1"
+      - key: KITCHEN_ACCESS_CODE
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: KITCHEN_ENABLE_LIVE
+        value: "0"
+      - key: KITCHEN_MAX_CONCURRENT
+        value: "2"
+      - key: KITCHEN_DAILY_USER_CALLS
+        value: "20"
+      - key: KITCHEN_DAILY_GLOBAL_CALLS
+        value: "100"

@@ -1,0 +1,21 @@
+{
+  "image_id": "gfp01",
+  "sha256": "1b42def6123d8a8b49895dd36aafce62fb7e0f54a12ff97503cf9bf3774fe4c5",
+  "annotation_method": "Assistant visual inspection of the downloaded original, before the project's vision model was called. Not a participant inventory or a weighed ground truth.",
+  "visible_evidence": [
+    {"region": "Lower shelf, front center", "description": "One clearly labelled skim-milk jug; label includes 1 GAL (3.78 L).", "ingredient_id": "milk", "package_capacity_ml": 3780, "remaining_quantity_ml": null, "sealed": null},
+    {"region": "Lower shelf, behind front milk jug", "description": "Additional partially obscured pale plastic jugs. Contents, complete count and remaining amounts are not established.", "ingredient_id": null},
+    {"region": "Middle shelf, center", "description": "Red container covered with foil. Its contents cannot be determined.", "ingredient_id": null},
+    {"region": "Middle shelf, right of red container", "description": "Green material in a translucent bag, partially obscured. Do not require a specific vegetable identification.", "ingredient_id": null},
+    {"region": "Middle and lower shelves", "description": "Beverage, sauce and oil bottles; some labels visible. Printed pictures of fruit are not separate fresh ingredients.", "ingredient_id": null}
+  ],
+  "checks_for_manual_review": [
+    "Does the result identify the clearly labelled milk without claiming its full capacity is the remaining quantity?",
+    "Does it leave covered-container contents unknown?",
+    "Does it avoid inventing weights for the bagged greens?",
+    "Does it distinguish packaging count from ingredient quantity?",
+    "Does it keep items outside the current ingredient catalogue unmapped?",
+    "Does it preserve photo-source indices and require user confirmation?"
+  ],
+  "limits": "Incomplete, qualitative annotation. No recall, total-stock accuracy or remaining-weight accuracy can be computed from this source alone. Package label readability may decrease after application resizing."
+}

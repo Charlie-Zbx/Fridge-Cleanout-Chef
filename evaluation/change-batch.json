@@ -1,0 +1,31 @@
+{
+  "batch_id": "photo-and-demand-changes-v1",
+  "photo_id": "gfp01",
+  "inventory": {
+    "items": [
+      {"ingredient_id": "egg", "quantity": 20, "unit": "piece"},
+      {"ingredient_id": "cabbage", "quantity": 1500, "unit": "g"},
+      {"ingredient_id": "tofu", "quantity": 1500, "unit": "g"}
+    ],
+    "pantry": ["oil", "salt"]
+  },
+  "preferences": {
+    "diners": 1,
+    "meals": 2,
+    "minutes_per_meal": 90,
+    "equipment": ["pan"],
+    "excluded_ingredients": ["shrimp"],
+    "excluded_allergens": ["shellfish"],
+    "priority_ingredients": ["cabbage"],
+    "taste": "清淡",
+    "allow_draft_recipes": true
+  },
+  "initial_message": "按已确认的一人、两顿、每顿最多90分钟条件安排，优先用掉卷心菜。",
+  "changes": [
+    {"id": "people", "message": "改成五个人吃，其他要求不变。", "expected_patch": {"diners": 5}, "expected_status": "ready"},
+    {"id": "time", "message": "每顿只有20分钟，其他要求不变。", "expected_patch": {"minutes_per_meal": 20}, "expected_status": "no_plan"}
+  ],
+  "limits": {"photo": 1, "initial": 6, "people_intake": 1, "people_replan": 6, "time_intake": 1, "time_replan": 6},
+  "max_requests": 21,
+  "notes": "Synthetic isolated kitchen. Draft recipe timing supports software tests only. Photo and meal-planning inputs are independent; the public photo is never converted into this inventory."
+}

@@ -1,0 +1,193 @@
+{
+  "batch_id": "efficiency-and-diverse-photos-v1",
+  "limits": {
+    "no_plan": 6,
+    "feasible": 6,
+    "veg_bin": 1,
+    "veg_fridge": 1,
+    "egg_container": 1,
+    "overlapping_views": 1
+  },
+  "max_requests": 16,
+  "agent_cases": [
+    {
+      "id": "no_plan",
+      "inventory": {
+        "items": [
+          {
+            "ingredient_id": "egg",
+            "quantity": 20,
+            "unit": "piece"
+          },
+          {
+            "ingredient_id": "cabbage",
+            "quantity": 1500,
+            "unit": "g"
+          },
+          {
+            "ingredient_id": "tofu",
+            "quantity": 1500,
+            "unit": "g"
+          }
+        ],
+        "pantry": [
+          "oil",
+          "salt"
+        ]
+      },
+      "preferences": {
+        "diners": 5,
+        "meals": 2,
+        "minutes_per_meal": 20,
+        "equipment": [
+          "pan"
+        ],
+        "excluded_ingredients": [
+          "shrimp"
+        ],
+        "excluded_allergens": [
+          "shellfish"
+        ],
+        "priority_ingredients": [
+          "cabbage"
+        ],
+        "taste": "清淡",
+        "allow_draft_recipes": true
+      },
+      "message": "每顿只有20分钟，其他要求不变。",
+      "previous": {
+        "message": "已按5人、2顿、每顿90分钟上限重新校验：每顿各1道菜（卷心菜炒蛋、清炒卷心菜），优先消耗卷心菜，均在时限内；香煎豆腐5人份单菜约63分钟，与另一道菜同顿会超时，故未安排。两道菜均为未审核的开发示例配方，用时与口味未经实做验证。",
+        "plan": {
+          "meals": [
+            {
+              "dishes": [
+                {
+                  "recipe_id": "cabbage_egg",
+                  "servings": 5
+                }
+              ]
+            },
+            {
+              "dishes": [
+                {
+                  "recipe_id": "stir_cabbage",
+                  "servings": 5
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "expected_status": "no_plan",
+      "previous_record": "artifacts/change-live-1794086490737526700/time_replan.json",
+      "previous_model_calls": 5,
+      "previous_search_calls": 3
+    },
+    {
+      "id": "feasible",
+      "inventory": {
+        "items": [
+          {
+            "ingredient_id": "egg",
+            "quantity": 20,
+            "unit": "piece"
+          },
+          {
+            "ingredient_id": "cabbage",
+            "quantity": 1500,
+            "unit": "g"
+          },
+          {
+            "ingredient_id": "tofu",
+            "quantity": 1500,
+            "unit": "g"
+          }
+        ],
+        "pantry": [
+          "oil",
+          "salt"
+        ]
+      },
+      "preferences": {
+        "diners": 5,
+        "meals": 2,
+        "minutes_per_meal": 90,
+        "equipment": [
+          "pan"
+        ],
+        "excluded_ingredients": [
+          "shrimp"
+        ],
+        "excluded_allergens": [
+          "shellfish"
+        ],
+        "priority_ingredients": [
+          "cabbage"
+        ],
+        "taste": "清淡",
+        "allow_draft_recipes": true
+      },
+      "message": "改成五个人吃，其他要求不变。",
+      "previous": {
+        "message": "两顿一人份方案已通过校验：每顿2道菜，用时分别约33和30分钟，均在90分钟内；优先消耗卷心菜共250g，无缺料、无忌口冲突。所用3个配方均为AI起草的开发示例，未经团队审核和实做验证，口味与用时为保守估计。",
+        "plan": {
+          "meals": [
+            {
+              "dishes": [
+                {
+                  "recipe_id": "cabbage_egg",
+                  "servings": 1
+                },
+                {
+                  "recipe_id": "pan_tofu",
+                  "servings": 1
+                }
+              ]
+            },
+            {
+              "dishes": [
+                {
+                  "recipe_id": "stir_cabbage",
+                  "servings": 1
+                },
+                {
+                  "recipe_id": "pan_tofu",
+                  "servings": 1
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "expected_status": "ready"
+    }
+  ],
+  "photo_cases": [
+    {
+      "id": "veg_bin",
+      "images": [
+        "veg_bin"
+      ]
+    },
+    {
+      "id": "veg_fridge",
+      "images": [
+        "veg_fridge"
+      ]
+    },
+    {
+      "id": "egg_container",
+      "images": [
+        "egg_container"
+      ]
+    },
+    {
+      "id": "overlapping_views",
+      "images": [
+        "veg_bin",
+        "veg_fridge"
+      ]
+    }
+  ],
+  "notes": "New photos have no weighed quantity truth. Two vegetable views share a scene. Paired views test overlap; not an additional independent fridge. Existing photo gfp01 is excluded from this batch."
+}

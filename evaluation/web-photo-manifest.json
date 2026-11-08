@@ -1,0 +1,193 @@
+{
+  "notice": "Public-source development fixtures, not participant data; weights and hidden contents unknown.",
+  "images": [
+    {
+      "id": "gfp01",
+      "filename": "gfp-fridge-contents.jpg",
+      "url": "https://www.goodfreephotos.com/albums/other-photos/rooms/fridge-contents.jpg",
+      "source": "https://www.goodfreephotos.com/other-photos/rooms/fridge-contents.jpg.php",
+      "author": "Yinan Chen / Good Free Photos",
+      "license": "CC0 / Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 3382,
+      "height": 2181,
+      "path": "evaluation/photos/web_sources/gfp-fridge-contents.jpg",
+      "sha256": "1b42def6123d8a8b49895dd36aafce62fb7e0f54a12ff97503cf9bf3774fe4c5",
+      "bytes": 1167331,
+      "changes": "Downloaded supplied JPEG; no local crop or edit",
+      "retrieved_date": "2026-11-08",
+      "provider_upload_authorized": false,
+      "evaluation_status": "selected",
+      "selection_note": "Inspected locally; CC0 development fixture for labels, occlusion and unknown contents.",
+      "authorization_history": [
+        {
+          "date": "2026-11-08",
+          "approved_requests": 1,
+          "attempted_requests": 1,
+          "remaining_requests": 0,
+          "result": "ValidationError after response; no inventory write",
+          "artifact": "artifacts/vision-smoke-1794085538169339800"
+        },
+        {
+          "date": "2026-11-08",
+          "approved_requests": 1,
+          "attempted_requests": 1,
+          "remaining_requests": 0,
+          "result": "8 observations parsed; classification errors remain; no inventory write",
+          "artifact": "artifacts/vision-smoke-1794085723926381700"
+        },
+        {
+          "date": "2026-11-08",
+          "approved_requests": 1,
+          "attempted_requests": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 21,
+          "batch_actual_requests": 17,
+          "result": "Revised prompt returned10 observations; unknown jug separated; label errors remain; no inventory write",
+          "artifact": "artifacts/change-live-1794086490737526700"
+        }
+      ]
+    },
+    {
+      "id": "pexels01",
+      "filename": "pexels-31485991.jpg",
+      "url": "https://images.pexels.com/photos/31485991/pexels-photo-31485991.jpeg?cs=srgb&dl=pexels-jose-antonio-otegui-auzmendi-2150489988-31485991.jpg&fm=jpg",
+      "source": "https://www.pexels.com/photo/well-stocked-refrigerator-with-various-groceries-31485991/",
+      "author": "Jose Antonio Otegui Auzmendi",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "width": 2268,
+      "height": 4032,
+      "path": "evaluation/photos/web_sources/pexels-31485991.jpg",
+      "sha256": "721e44a4868f19b28230facd5a55f4ed7dec7a79f89a9759586c080ddc44a4cd",
+      "bytes": 1304554,
+      "changes": "Downloaded supplied JPEG; no local crop or edit",
+      "retrieved_date": "2026-11-08",
+      "provider_upload_authorized": false,
+      "evaluation_status": "excluded",
+      "selection_note": "Not included in model evaluation; prefer the CC0 source."
+    },
+    {
+      "id": "veg_bin",
+      "url": "https://live.staticflickr.com/65535/50838442242_04963656f3_b.jpg",
+      "source": "https://www.flickr.com/photos/184594136@N08/50838442242/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Vegetables_in_Refrigerator_Bin_-_50838442242.jpg",
+      "author": "Alabama Extension / Margaret Barse",
+      "filename": "vegetable-bin.jpg",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "scene_group": "alabama-extension-2021",
+      "path": "evaluation/photos/web_sources/vegetable-bin.jpg",
+      "sha256": "ab8c16c958e701999669da8f4e9e547a6b043f791630a0f9dcd694d61015f69a",
+      "width": 1024,
+      "height": 736,
+      "bytes": 191464,
+      "retrieved_date": "2026-11-08",
+      "changes": "Downloaded publisher-provided JPEG; no local edit",
+      "provider_upload_authorized": false,
+      "evaluation_status": "selected",
+      "selection_note": "Inspected locally before API evaluation; no measured quantity ground truth. Publisher-provided preview resolution.",
+      "authorization_history": [
+        {
+          "date": "2026-11-08",
+          "approved_requests": 1,
+          "attempted_requests": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 16,
+          "batch_actual_requests": 8,
+          "result": "Parsed; manual quantity/identity review needed",
+          "artifact": "artifacts/efficiency-live-1794087472099762600"
+        },
+        {
+          "date": "2026-11-08",
+          "approved_requests_containing_image": 1,
+          "attempted_requests_containing_image": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 2,
+          "batch_actual_requests": 2,
+          "batch_case": "overlapping_views",
+          "result": "Response parsed; uncertainty and classification/count limits documented; no inventory write",
+          "artifact": "artifacts/efficiency-live-1794087712822561200"
+        }
+      ]
+    },
+    {
+      "id": "veg_fridge",
+      "url": "https://live.staticflickr.com/65535/50837632593_dc01b9ef12_b.jpg",
+      "source": "https://www.flickr.com/photos/184594136@N08/50837632593/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Fruits_and_Vegetables_in_Refrigerator.jpg",
+      "author": "Alabama Extension / Margaret Barse",
+      "filename": "vegetable-fridge.jpg",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "scene_group": "alabama-extension-2021",
+      "path": "evaluation/photos/web_sources/vegetable-fridge.jpg",
+      "sha256": "6bc75f7a7f1eb9241facb2a619a68aa061b0b4f093da3217371f939f7d23e406",
+      "width": 1024,
+      "height": 683,
+      "bytes": 182627,
+      "retrieved_date": "2026-11-08",
+      "changes": "Downloaded publisher-provided JPEG; no local edit",
+      "provider_upload_authorized": false,
+      "evaluation_status": "selected",
+      "selection_note": "Inspected locally before API evaluation; no measured quantity ground truth. Publisher-provided preview resolution.",
+      "authorization_history": [
+        {
+          "date": "2026-11-08",
+          "approved_requests": 1,
+          "attempted_requests": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 16,
+          "batch_actual_requests": 8,
+          "result": "Strict schema rejected extra type tag; fixed offline after batch stopped",
+          "artifact": "artifacts/efficiency-live-1794087472099762600"
+        },
+        {
+          "date": "2026-11-08",
+          "approved_requests_containing_image": 1,
+          "attempted_requests_containing_image": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 2,
+          "batch_actual_requests": 2,
+          "batch_case": "overlapping_views",
+          "result": "Response parsed; uncertainty and classification/count limits documented; no inventory write",
+          "artifact": "artifacts/efficiency-live-1794087712822561200"
+        }
+      ]
+    },
+    {
+      "id": "egg_container",
+      "url": "https://live.staticflickr.com/65535/49990592782_cb10b16d29_b.jpg",
+      "source": "https://www.flickr.com/photos/41284017@N08/49990592782/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Food_Safety_-_Cut_Waste_in_Refrigerators_(20200608-FSIS-LSC-0211).jpg",
+      "author": "USDA / Lance Cheung",
+      "license": "Public Domain (US federal government work)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "scene_group": "usda-2020",
+      "filename": "egg-container.jpg",
+      "path": "evaluation/photos/web_sources/egg-container.jpg",
+      "sha256": "a2735858345f8b7b1da10fcb128e26c216f676f6d497280a895a0ddcc1bc7837",
+      "width": 683,
+      "height": 1024,
+      "bytes": 93033,
+      "retrieved_date": "2026-11-08",
+      "changes": "Downloaded publisher-provided JPEG; no local edit",
+      "provider_upload_authorized": false,
+      "evaluation_status": "selected",
+      "selection_note": "Inspected locally before API evaluation; no measured quantity ground truth. Publisher-provided preview resolution.",
+      "authorization_history": [
+        {
+          "date": "2026-11-08",
+          "approved_requests_containing_image": 1,
+          "attempted_requests_containing_image": 1,
+          "remaining_requests": 0,
+          "batch_max_requests": 2,
+          "batch_actual_requests": 2,
+          "batch_case": "egg_container",
+          "result": "Response parsed; uncertainty and classification/count limits documented; no inventory write",
+          "artifact": "artifacts/efficiency-live-1794087712822561200"
+        }
+      ]
+    }
+  ]
+}

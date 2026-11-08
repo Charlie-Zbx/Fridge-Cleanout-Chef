@@ -1,0 +1,80 @@
+{
+  "annotation_method": "Assistant local visual inspection before any project API call; not measured ground truth.",
+  "images": [
+    {
+      "id": "veg_bin",
+      "scene_group": "alabama-extension-2021",
+      "clearly_visible": [
+        "broccoli",
+        "eggplant",
+        "zucchini",
+        "tomato"
+      ],
+      "additional_partial_items": [
+        "bagged carrots at upper edge",
+        "leafy greens at upper edge",
+        "lemon/orange in neighboring drawer"
+      ],
+      "count_notes": "Two eggplants and two zucchini are visible; tomatoes overlap and total stock is unknown.",
+      "quantity_ground_truth": null,
+      "checks": [
+        "Recognize common fresh produce",
+        "Do not invent grams for unpackaged vegetables",
+        "Do not count partially obscured food as complete inventory"
+      ]
+    },
+    {
+      "id": "veg_fridge",
+      "scene_group": "alabama-extension-2021",
+      "clearly_visible": [
+        "carrot",
+        "tomato",
+        "broccoli",
+        "eggplant",
+        "zucchini"
+      ],
+      "additional_partial_items": [
+        "leafy greens in transparent tub",
+        "egg carton above, individual eggs not visible",
+        "milk-like carton with partially readable label",
+        "opaque juice bottles",
+        "fruit in neighboring drawer"
+      ],
+      "quantity_ground_truth": null,
+      "checks": [
+        "Do not infer egg count from a closed carton",
+        "Do not infer exact content from bottle color",
+        "No legible net weight means no gram suggestion"
+      ]
+    },
+    {
+      "id": "egg_container",
+      "scene_group": "usda-2020",
+      "clearly_visible": [
+        "egg"
+      ],
+      "additional_partial_items": [
+        "carton with Nutrition Facts and Serving size 1 Tbsp (15 mL)"
+      ],
+      "quantity_ground_truth": null,
+      "count_notes": "Eggs overlap inside a translucent box; complete count is unknown. Reflections in the glass shelf are not additional eggs.",
+      "checks": [
+        "Flag occlusion and require count confirmation",
+        "Do not turn serving size 15 mL into package net volume",
+        "Do not identify carton contents solely from a nutrition panel",
+        "Do not count reflections as more food"
+      ]
+    }
+  ],
+  "paired_case": {
+    "images": [
+      "veg_bin",
+      "veg_fridge"
+    ],
+    "relationship": "Same photographed refrigerator and overlapping produce; correlated views, not independent scenes.",
+    "checks": [
+      "Same broccoli, eggplants and zucchini appear from different views",
+      "Merge known duplicate observations or mark uncertainty; never simply add counts across pictures"
+    ]
+  }
+}
